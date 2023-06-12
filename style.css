@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login_left_container {
+    padding: 70px !important;
+}
+
+.login_left_container h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+.login_from form label {
+    font-weight: 500;
+}
+
+.login_from form input.input_item {
+    width: 90%;
+    padding: 9px;
+    outline: none;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 7px;
+}
+
+.forget_link {
+    text-decoration: none;
+    color: black;
+}
+
+.forget_link:hover {
+    text-decoration: underline;
+}
+
+.sign_btn {
+    background-color: #EA454C;
+    color: #FFFFFF;
+    border: none;
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: all ease 0.3s;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+    box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+}
+
+.sign_btn:hover {
+    background-color: #ea454dd5;
+}
+
+.social_link {
+    padding-top: 20px;
+}
+
+.social_link button {
+    background-color: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    width: 90%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+    box-shadow: 0px 0px 4px 0px rgba(173, 173, 173, 1);
+}
+
+.social_link button p {
+    display: inline-block;
+    margin: 0px !important;
+}
+
+.social_link button img {
+    width: 2rem;
+    display: inline-block;
+}
+.account_text{
+    padding-top: 10px;
+    padding-left: 7%;
+}
+.account_text a{
+    color: red;
+    text-decoration: none;
+}
+.login_right_container {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.login_right_container img {
+    width: 100%;
+    height: 100%;
+}
